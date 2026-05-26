@@ -1,0 +1,106 @@
+/* Responsive Design for Viet Sinh Theme */
+
+@media (max-width: 1024px) {
+    .nav-links {
+        display: none;
+    }
+
+    .nav-search {
+        display: none;
+    }
+
+    .title-row {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-inner {
+        gap: 8px;
+    }
+
+    .nav-cta {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .lang-switch {
+        display: none;
+    }
+
+    .section-title {
+        font-size: clamp(24px, 3vw, 32px);
+    }
+
+    section {
+        padding: 48px 4%;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .entry-title,
+    .page-title {
+        font-size: 24px;
+    }
+
+    .page-hero-title {
+        font-size: clamp(24px, 4vw, 42px);
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-inner {
+        height: auto;
+        padding: 12px 0;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        font-size: 14px;
+    }
+
+    .logo-icon {
+        width: 28px;
+        height: 28px;
+        font-size: 11px;
+    }
+
+    .nav-right {
+        width: 100%;
+        gap: 6px;
+        order: 3;
+    }
+
+    .nav-cta {
+        flex: 1;
+        text-align: center;
+    }
+
+    section {
+        padding: 32px 4%;
+    }
+
+    .section-title {
+        font-size: clamp(20px, 2.5vw, 24px);
+    }
+
+    .entry-title,
+    .page-title {
+        font-size: 18px;
+    }
+
+    .page-hero {
+        padding: 32px 4%;
+    }
+
+    .footer-grid {
+        gap: 20px;
+    }
+}
